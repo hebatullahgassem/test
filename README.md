@@ -16,3 +16,5 @@ remotely -> git push origin --delete dev, git push origin --delete test
 #to delete tag locally and remotely:
 locally -> git tag -d v1.7
 remotely -> git push origin --delete v1.7
+
+![dogPicture](./images/dog.avif)
