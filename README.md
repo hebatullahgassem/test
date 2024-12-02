@@ -9,3 +9,10 @@ remotely -> git push origin --delete dev, git push origin --delete test
 *If You Don't Need Them
 -> git reset --hard
 -> git checkout branchName
+
+#how to list tags
+-> git tag
+
+#to delete tag locally and remotely:
+locally -> git tag -d v1.7
+remotely -> git push origin --delete v1.7
