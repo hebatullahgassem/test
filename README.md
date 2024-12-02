@@ -1,8 +1,8 @@
-#to remove branches locally and remotely:
+# to remove branches locally and remotely:
 locally -> git branch -d dev, git branch -d test
 remotely -> git push origin --delete dev, git push origin --delete test
 
-#to checkout another branch without commit changes:
+# to checkout another branch without commit changes:
 *Save Your Changes Temporarily
 -> git stash
 -> git checkout branchName
@@ -10,10 +10,10 @@ remotely -> git push origin --delete dev, git push origin --delete test
 -> git reset --hard
 -> git checkout branchName
 
-#how to list tags
+# how to list tags
 -> git tag
 
-#to delete tag locally and remotely:
+# to delete tag locally and remotely:
 locally -> git tag -d v1.7
 remotely -> git push origin --delete v1.7
 
